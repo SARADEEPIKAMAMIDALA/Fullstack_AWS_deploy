@@ -21,7 +21,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/phani2498/FullstackforAWS.git', branch: 'main'
+                git url: 'https://github.com/SARADEEPIKAMAMIDALA/Fullstack_AWS_deploy.git', branch: 'main'
             }
         }
 
